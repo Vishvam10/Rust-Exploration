@@ -1,7 +1,6 @@
-
 fn main() {
 
-    let topic : String = String::from("Shadowing Explorations");
+    let topic : String = String::from("Slices Explorations");
     let stars :  String = "*".repeat(topic.len());
 
     println!("\n{}", stars);
